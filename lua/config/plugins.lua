@@ -152,7 +152,10 @@ require("lazy").setup({
 		"vyfor/cord.nvim",
 		event = "VeryLazy",
 	},
-
+	{
+		"nvim-lualine/lualine.nvim",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
+	},
 	-- =============================================================================
 	-- File Explorer
 	-- =============================================================================
