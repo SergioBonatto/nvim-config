@@ -1,0 +1,51 @@
+local M = {}
+
+M.light = {
+	fg = "#4A4C52",
+	fg_soft = "#6B6E73",
+	bg = "#F2F1EE",
+	bg_alt = "#EAE8E4",
+	bg_soft = "#E5E3DF",
+	border = "#D3D0CA",
+	comment = "#8F918F",
+	keyword = "#9A6F96",
+	string = "#6E9B73",
+	func = "#5B8FA8",
+	variable = "#C96A61",
+	number = "#B08B4F",
+	visual = "#DCD8D2",
+	gutter = "#B2AFA8",
+	cursorline = "#E7E5E1",
+	selection = "#DCD8D2",
+	search = "#E9DEB8",
+	ui = "#E8E6E2",
+	diff_add = "#DDE8DA",
+	diff_change = "#E9E2C9",
+	diff_delete = "#EAD8D6",
+}
+
+M.dark = {
+	fg = "#cfd3d8",
+	fg_soft = "#aeb5bd",
+	bg = "#2f3238",
+	bg_alt = "#383B42",
+	bg_soft = "#41454D",
+	border = "#535861",
+	comment = "#7a8088",
+	keyword = "#a98abf",
+	string = "#8eae7a",
+	func = "#78a4c4",
+	variable = "#c97a80",
+	number = "#c9ad79",
+	visual = "#4a5058",
+	gutter = "#8d949c",
+	cursorline = "#44484f",
+	selection = "#4a5058",
+	search = "#5a5240",
+	ui = "#3B3F46",
+	diff_add = "#34483A",
+	diff_change = "#484530",
+	diff_delete = "#493638",
+}
+
+return M
