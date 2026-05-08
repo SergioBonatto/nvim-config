@@ -51,9 +51,9 @@ opt.grepprg = "rg --vimgrep --smart-case --hidden"
 -- =============================================================================
 
 opt.completeopt = {
-  "menu",
-  "menuone",
-  "noselect",
+	"menu",
+	"menuone",
+	"noselect",
 }
 
 -- =============================================================================
@@ -61,9 +61,9 @@ opt.completeopt = {
 -- =============================================================================
 
 opt.backspace = {
-  "indent",
-  "eol",
-  "start",
+	"indent",
+	"eol",
+	"start",
 }
 
 opt.clipboard = "unnamedplus"
@@ -99,9 +99,9 @@ opt.showmode = false
 opt.ruler = false
 
 opt.fillchars = {
-  vert = "│",
-  fold = " ",
-  eob = " ",
+	vert = "¦",
+	fold = " ",
+	eob = " ",
 }
 
 -- =============================================================================
@@ -111,12 +111,12 @@ opt.fillchars = {
 opt.path:append("**")
 
 opt.wildignore:append({
-  "*/node_modules/*",
-  "*/dist/*",
-  "*/build/*",
-  "*/.git/*",
-  "*.o",
-  "*.pyc",
+	"*/node_modules/*",
+	"*/dist/*",
+	"*/build/*",
+	"*/.git/*",
+	"*.o",
+	"*.pyc",
 })
 
 -- =============================================================================
@@ -126,9 +126,8 @@ opt.wildignore:append({
 opt.makeprg = "make"
 
 opt.errorformat = {
-  "%f:%l:%c: %t%*[^:]: %m",
-  "%f:%l: %t%*[^:]: %m",
-  "%f:%l:%c: %m",
-  "%f:%l: %m",
+	"%f:%l:%c: %t%*[^:]: %m",
+	"%f:%l: %t%*[^:]: %m",
+	"%f:%l:%c: %m",
+	"%f:%l: %m",
 }
-
