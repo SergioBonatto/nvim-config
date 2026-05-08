@@ -1,0 +1,5 @@
+plugin/
+lazy-lock.json
+.lazy/
+luarc.json
+*.log
