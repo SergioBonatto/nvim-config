@@ -29,6 +29,11 @@ require("lazy").setup({
 			vim.cmd.colorscheme("atomonelight_matte")
 		end,
 	},
+	{
+		"tribela/transparent.nvim",
+		event = "VimEnter",
+		config = true,
+	},
 
 	-- =============================================================================
 	-- Core Workflow
@@ -135,7 +140,7 @@ require("lazy").setup({
 			"tomtom/tcomment_vim",
 		},
 		opts = {
-			mappings = true,
+			mappings = false,
 		},
 	},
 
